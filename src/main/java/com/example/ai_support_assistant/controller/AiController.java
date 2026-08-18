@@ -47,4 +47,9 @@ public class AiController {
     public List<Document> search(@RequestParam String question){
         return knowledgeService.searchKnowledge(question);
     }
+
+    @GetMapping("/rag/context")
+    public String getRagContext(@RequestParam String question){
+        return knowledgeService.askWithRAG(question);
+    }
 }
