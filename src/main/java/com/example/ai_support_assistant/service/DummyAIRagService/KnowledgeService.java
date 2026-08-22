@@ -1,4 +1,4 @@
-package com.example.ai_support_assistant.service;
+package com.example.ai_support_assistant.service.DummyAIRagService;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.document.Document;

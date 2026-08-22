@@ -1,4 +1,4 @@
-package com.example.ai_support_assistant.service;
+package com.example.ai_support_assistant.service.DummyAIRagService;
 
 import org.springframework.ai.embedding.EmbeddingModel;
 import org.springframework.stereotype.Service;
